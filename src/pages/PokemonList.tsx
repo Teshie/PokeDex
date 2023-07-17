@@ -18,7 +18,7 @@ const PokemonList = (props: Props) => {
 
   return (
     <div>
-      <h2 className="text-green-500">Filter</h2>
+      <h2 className="text-green-500 p-4">Filter By Pokemon Type</h2>
       <EnhancedTable pokemonList={pokemonList} />
     </div>
   );
